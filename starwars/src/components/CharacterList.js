@@ -9,7 +9,9 @@ export default function CharacterList(props) {
         return (
           <Character
           character={character}
-          gender={character.gender} />
+          gender={character.gender}
+          height={character.height}
+           />
         )
       })}
     </div>
