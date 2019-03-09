@@ -7,7 +7,9 @@ export default function CharacterList(props) {
     <div className="character-list">
       {props.starwarsChars.map(character => {
         return (
-          <Character character={character} />
+          <Character
+          character={character}
+          gender={character.gender} />
         )
       })}
     </div>
